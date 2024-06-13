@@ -1,0 +1,20 @@
+1. Impiegato
+  1.1 nome (una stringa)
+  1.2 cognome (una stringa)
+  1.3 data di nascita
+  1.4 dipartimento di afferenza (v.2) (esattamente uno)
+    1.4.1 data di afferenza
+  1.5 stipendio (reale > 0)
+  1.6 progetti al quale partecipa
+
+2. dipartimento
+  2.1 nome (una stringa)
+  2.2 telefono (un intero)
+  2.3 impiegati (v.1)
+  2.4 direttore (un impiegato v.1), esattamente uno 
+
+3. Progetti aziendali
+   3.1 nome (una stringa)
+   3.2 budget (reale >= 0)
+   3.3 impiegati convolti (v.1)   
+     
